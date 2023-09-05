@@ -1,0 +1,13 @@
+.DS_Store
+.dart_tool/
+
+.packages
+.pub/
+.idea/
+.vscode/
+
+build/
+
+certificates/*.p12
+certificates/*.pem
+passes/*

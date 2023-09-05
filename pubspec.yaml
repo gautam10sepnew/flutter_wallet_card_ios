@@ -1,0 +1,32 @@
+name: flutter_wallet_card
+description: Flutter wallet card for iOS devices. Generate Apple Pass card using either locally stored file or download it from web via url.
+version: 3.0.3
+homepage: https://github.com/WebEferen/flutter_wallet_card
+repository: https://github.com/WebEferen/flutter_wallet_card.git
+issue_tracker: https://github.com/WebEferen/flutter_wallet_card/issues
+
+environment:
+  sdk: ">=2.19.1 <4.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  archive: ^3.3.8
+  cli_script: ^1.0.0
+  crypto: ^3.0.3
+  dio: ^5.3.2
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  path: ^1.8.3
+  path_provider: ^2.1.1
+  uuid: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      ios:
+        pluginClass: FlutterWalletCardPlugin
